@@ -1,0 +1,17 @@
+footer {
+    grid-area: footer;
+    overflow: hidden;
+}
+
+footer p#copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: gray;
+    transition: 0.5s ease;
+}
+
+footer p#copyright-text:hover {
+    transform: scale(1.1);
+}

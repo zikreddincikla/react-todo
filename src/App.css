@@ -1,0 +1,116 @@
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "todo-add" "list";
+    grid-area: main;
+    gap: 30px;
+}
+form {
+    grid-area: todo-add;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo-list {
+    grid-area: list;
+}
+input {
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: rgb(0, 110, 110);
+    padding: 10px;
+}
+#todo-container {
+    background-color: rgb(20, 20, 20);
+    padding: 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aqua;
+    color: whitesmoke;
+    gap: 10px;
+}
+#submit_button {
+    background-color: rgb(20, 20, 20);
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    border-color: aqua;
+    color: aqua;
+    font-family: sans-serif;
+    font-size: large;
+}
+#submit_button:hover {
+    color: rgb(20, 20, 20);
+    background-color: aqua;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+#todo-input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#todo-item {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+}
+.buttons {
+    display: flex;
+    grid-area: button;
+    gap: 8px;
+    justify-content: flex-end;
+}
+.todo-p {
+    grid-area: text;
+    display: block;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0;
+    padding-right: 15px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+.buttons button {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.buttons button:hover {
+    background-color: aqua;
+    color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#todo-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 3pc;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
