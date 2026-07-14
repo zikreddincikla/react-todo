@@ -10,7 +10,7 @@
 ![No Backend](https://img.shields.io/badge/backend-none-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-[Live Demo](#) · [Report a Bug](https://github.com/zikreddincikla) · [Author](https://github.com/zikreddincikla)
+[Live Demo](https://react-todo-gamma-coral.vercel.app/) · [Report a Bug](https://github.com/zikreddincikla) · [Author](https://github.com/zikreddincikla)
 
 </div>
 
