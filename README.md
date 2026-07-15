@@ -51,8 +51,8 @@ The UI leans into a dark, neon-aqua aesthetic on top of a CSS Grid page skeleton
 ## Getting started
 
 ```bash
-git clone https://github.com/zikreddincikla/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/zikreddincikla/react-todo.git
+cd react-todo
 npm install
 npm run dev
 ```
