@@ -24,7 +24,7 @@ input {
     padding: 10px;
 }
 #todo-container {
-    background-color: rgb(20, 20, 20);
+    background-color: #141414;
     padding: 30px;
     border-radius: 30px;
     border-style: solid;
