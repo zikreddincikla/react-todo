@@ -12,6 +12,8 @@
 
 [Live Demo](https://react-todo-gamma-coral.vercel.app/) · [Report a Bug](https://github.com/zikreddincikla) · [Author](https://github.com/zikreddincikla)
 
+🇬🇧 English | [🇹🇷 Türkçe](README.tr.md)
+
 </div>
 
 ---
